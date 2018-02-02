@@ -4,7 +4,7 @@
 <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Create Listing</div>
+                <div class="panel-heading">Create Listing<span class="pull-right"><a href="/dashboard" class="bnt btn-info btn-xs">Back</a></span></div>
 
                 <div class="panel-body">
                   {!! Form::open(['action' => 'ListingsController@store', 'method' => 'POST']) !!}
